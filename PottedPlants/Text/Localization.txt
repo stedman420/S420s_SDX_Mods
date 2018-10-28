@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish
+pottedPlant1,,,,Potted Plant,,,,
+pottedPlant2,,,,Potted Plant,,,,
+pottedPlant3,,,,Tall Potted Plant,,,,
+pottedPlant4,,,,Potted Plant,,,,
+pottedPlant5,,,,Potted Plant,,,,
+pottedPlant6,,,,Potted Plant,,,,

@@ -1,0 +1,340 @@
+<configs>
+	<config name="items">
+		<append xpath="/items">
+			<item id="" name="gunM4A1">
+				<property name="Meshfile" value="#M4A1?M4A1Prefab" />
+				<property name="Material" value="metal" />
+				<property name="RepairTools" value="repairKit" />
+				<property name="HoldType" value="48" />
+				<property name="DegradationBreaksAfter" value="false" />
+				<property name="SoundJammed" value="weapon_jam" />
+				<property name="Attachments" value="flashlight02" />
+				<property name="CrosshairOnAim" value="false" />
+				<property name="CrosshairUpAfterShot" value="true" />
+				<property class="Parts">
+					<property name="Stock" value="partsM4A1_stock" />
+					<property name="Receiver" value="partsM4A1_receiver" />
+					<property name="Pump" value="partsM4A1_parts" />
+					<property name="Barrel" value="partsM4A1_barrel" />
+				</property>
+				<property name="Sound_Sight_In" value="rifle_sight_in" />
+				<property name="Sound_Sight_Out" value="rifle_sight_out" />
+				<property class="Action0">
+					<!-- AttackAction -->
+					<property name="Class" value="Ranged" />
+					<property name="Delay" value="0.150" />
+					<property name="Auto_fire" value="true" />
+					<property name="Crosshair_min_distance" value="13" />
+					<property name="Crosshair_max_distance" value="16" />
+					<property name="Magazine_size" value="30" />
+					<property name="Magazine_items" value="556mmBullet" />
+					<property name="Magazine_item_ray_counts" value="1" />
+					<property name="Magazine_item_ray_spreads" value="0" />
+					<property name="Reload_time" value="3.9" />
+					<property name="Bullet_icon" value="uzi" />
+					<property name="Sound_start" value="ak47_fire_start" />
+					<property name="Sound_repeat" value="Weapons/Ranged/AK47/ak47_fire_lp" />
+					<property name="Sound_end" value="Weapons/Ranged/AK47/ak47_fire_end" />
+					<property name="Sound_empty" value="weapon_empty" />
+					<property name="Sound_reload" value="ak47_reload" />
+					<property name="Horde_meter_rate" value="2.5" />
+					<property name="Horde_meter_distance" value="20" />
+					<property name="Particles_muzzle_fire" value="nozzleflash_ak" />
+					<property name="Particles_muzzle_smoke" value="nozzlesmokeuzi" />
+					<property name="DamageBonus.head" value="3" />
+					<property name="DamageBonus.wood" value="5" />
+					<property name="DamageBonus.earth" value="0.2" />
+					<property name="DamageBonus.glass" value="1" />
+					<property name="Buff" value="critGunAK47" />
+					<property name="Buff_chance" value="0.1" />
+					<property name="ActionExp" value="1" />
+				</property>
+				<property class="Action1">
+					<!-- UseAction -->
+					<property name="Class" value="Zoom" />
+					<property name="Zoom_max_out" value="35" />
+					<property name="Zoom_max_in" value="35" />
+				</property>
+				<property name="LightSource" value="lightSource" />
+				<!-- Start: Needed for the attachment flashlight -->
+				<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
+				<property name="AttachmentFlashlight" value="flashlight02" />
+				<!-- End: Needed for the attachment flashlight -->
+				<property name="Group" value="Ammo/Weapons" />
+				<property name="ActionSkillGroup" value="Rifles" />
+				<property name="CraftingSkillGroup" value="craftSkillGuns" />
+				<property name="RepairExpMultiplier" value="10.8" />
+				<property name="LightValue" value="0.45" />
+			</item>
+			<item id="40" name="gunMP40">
+				<property name="Meshfile" value="#MP40?MP40Prefab" />
+				<property name="Material" value="metal" />
+				<property name="RepairTools" value="repairKit" />
+				<property name="HoldType" value="1" />
+				<property name="DegradationBreaksAfter" value="false" />
+				<property name="SoundJammed" value="weapon_jam" />
+				<property name="Attachments" value="flashlight02" />
+				<property name="CrosshairOnAim" value="false" />
+				<property name="CrosshairUpAfterShot" value="true" />
+				<property class="Parts">
+					<property name="Stock" value="partsMP40_grip" />
+					<property name="Receiver" value="partsMP40_receiver" />
+					<property name="Pump" value="partsMP40_parts" />
+					<property name="Barrel" value="partsMP40_barrel" />
+				</property>
+				<property name="Sound_Sight_In" value="pistol_sight_in" />
+				<property name="Sound_Sight_Out" value="pistol_sight_out" />
+				<property class="Action0">
+					<!-- AttackAction -->
+					<property name="Class" value="Ranged" />
+					<property name="Delay" value="0.2" />
+					<property name="Crosshair_min_distance" value="5" />
+					<property name="Crosshair_max_distance" value="6" />
+					<property name="Magazine_size" value="15" />
+					<property name="Magazine_items" value="40SWBullet" />
+					<property name="Magazine_item_ray_counts" value="1" />
+					<property name="Magazine_item_ray_spreads" value="0.85" />
+					<property name="Reload_time" value="2" />
+					<property name="Bullet_icon" value="pistol" />
+					<property name="Sound_start" value="Pistol_Fire" />
+					<property name="Sound_repeat" value="" />
+					<property name="Sound_end" value="" />
+					<property name="Sound_empty" value="weapon_empty" />
+					<property name="Sound_reload" value="pistol_reload" />
+					<property name="Particles_muzzle_fire" value="nozzleflash" />
+					<property name="Particles_muzzle_smoke" value="nozzlesmoke" />
+					<property name="DamageBonus.head" value="6" />
+					<property name="DamageBonus.wood" value="3" />
+					<property name="DamageBonus.earth" value="0.4" />
+					<property name="DamageBonus.glass" value="1" />
+				</property>
+				<property class="Action1">
+					<!-- UseAction -->
+					<property name="Class" value="Zoom" />
+					<property name="Zoom_max_out" value="35" />
+					<property name="Zoom_max_in" value="35" />
+				</property>
+				<property name="LightSource" value="lightSource" />
+				<!-- Start: Needed for the attachment flashlight -->
+				<property name="ActivateObject" value="Attachments/flashlight/lightSource" />
+				<property name="AttachmentFlashlight" value="flashlight02" />
+				<!-- End: Needed for the attachment flashlight -->
+				<property name="Group" value="Ammo/Weapons" />
+				<property name="ActionSkillGroup" value="Pistols" />
+				<property name="CraftingSkillGroup" value="craftSkillGuns" />
+				<property name="RepairExpMultiplier" value="10.8" />
+				<property name="LightValue" value="0.45" />
+			</item>
+			<item id="" name="556mmBullet">
+				<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/762mm_bulletPrefab" />
+				<property name="Material" value="brass" />
+				<property name="HoldType" value="21" />
+				<property name="Stacknumber" value="500" />
+				<property name="CraftingSkillGroup" value="craftSkillGuns" />
+				<property name="EconomicValue" value="18" />
+				<property name="Group" value="Ammo/Weapons" />
+			</item>
+			<item id="" name="40SWBullet">
+				<property name="Meshfile" value="Items/Weapons/Ranged/Pistol/10mm_bulletPrefab"/>
+				<property name="Material" value="brass"/>
+				<property name="HoldType" value="21"/>
+				<property name="Stacknumber" value="500"/>
+				<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+				<property name="EconomicValue" value="16"/>
+				<property name="Group" value="Ammo/Weapons"/>
+			</item>
+			<item id="" name="partsM4A1_stock">
+				<property name="Extends" value="partsMaster" />
+				<property name="CustomIcon" value="partsMP5_stock" />
+				<property name="DescriptionKey" value="partsM4A1GroupDesc" />
+				<property name="PartType" value="Stock" />
+				<property name="Weight" value="30" />
+				<property class="Attributes">
+					<property name="DegradationRate" value="12,16" />
+					<property name="DegradationMax" value="5600,14000" />
+					<property name="DismembermentBaseChance" value="-0.2,-0.1" />
+				</property>
+				<property name="EconomicValue" value="1000" />
+			</item>
+			<item id="" name="partsM4A1_receiver">
+				<property name="Extends" value="partsMaster" />
+				<property name="CustomIcon" value="partsAK47_receiver" />
+				<property name="DescriptionKey" value="partsM4A1GroupDesc" />
+				<property name="PartType" value="Receiver" />
+				<property name="Weight" value="30" />
+				<property class="Attributes">
+					<property name="FalloffRange" value="54,90" />
+					<property name="DegradationMax" value="5600,14000" />
+				</property>
+				<property name="EconomicValue" value="1000" />
+			</item>
+			<item id="" name="partsM4A1_parts">
+				<property name="Extends" value="partsMaster" />
+				<property name="CustomIcon" value="partsAK47_parts" />
+				<property name="DescriptionKey" value="partsM4A1GroupDesc" />
+				<property name="PartType" value="Pump" />
+				<property name="Weight" value="15" />
+				<property class="Attributes">
+					<property name="Accuracy" value="7,7" />
+					<property name="DegradationMax" value="5600,14000" />
+				</property>
+				<property name="EconomicValue" value="1000" />
+			</item>
+			<item id="" name="partsM4A1_barrel">
+				<property name="Extends" value="partsMaster" />
+				<property name="CustomIcon" value="partsPistol_barrel" />
+				<property name="DescriptionKey" value="partsM4A1GroupDesc" />
+				<property name="PartType" value="Barrel" />
+				<property name="Weight" value="35" />
+				<property class="Attributes">
+					<property name="EntityDamage" value="35,55" />
+					<property name="BlockDamage" value="5,9.5" />
+					<property name="DegradationMax" value="5600,14000" />
+				</property>
+				<property name="EconomicValue" value="1000" />
+			</item>
+			<item id="" name="partsMP40_grip">
+				<property name="Extends" value="partsMaster" />
+				<property name="CustomIcon" value="partsPistol_grip" />
+				<property name="DescriptionKey" value="partsMP40GroupDesc" />
+				<property name="PartType" value="Stock" />
+				<property name="Weight" value="10" />
+				<property class="Attributes">
+					<property name="DegradationRate" value="10,10" />
+					<property name="DegradationMax" value="5000,8000" />
+				</property>
+				<property name="EconomicValue" value="750" />
+			</item>
+			<item id="" name="partsMP40_receiver">
+				<property name="Extends" value="partsMaster" />
+				<property name="CustomIcon" value="partsPistol_receiver" />
+				<property name="DescriptionKey" value="partsMP40GroupDesc" />
+				<property name="PartType" value="Receiver" />
+				<property name="Weight" value="20" />
+				<property class="Attributes">
+					<property name="FalloffRange" value="22,50" />
+					<property name="DegradationMax" value="5000,8000" />
+				</property>
+				<property name="EconomicValue" value="750" />
+			</item>
+			<item id="" name="partsMP40_parts">
+				<property name="Extends" value="partsMaster" />
+				<property name="CustomIcon" value="partsPistol_parts" />
+				<property name="DescriptionKey" value="partsMP40GroupDesc" />
+				<property name="PartType" value="Pump" />
+				<property name="Weight" value="10" />
+				<property class="Attributes">
+					<!-- <property name="Accuracy" value="1,0.01"/> -->
+					<property name="DegradationMax" value="5000,8000" />
+				</property>
+				<property name="EconomicValue" value="750" />
+			</item>
+			<item id="" name="partsMP40_barrel">
+				<property name="Extends" value="partsMaster" />
+				<property name="CustomIcon" value="partsPistol_barrel" />
+				<property name="DescriptionKey" value="partsMP40GroupDesc" />
+				<property name="PartType" value="Barrel" />
+				<property name="Weight" value="10" />
+				<property class="Attributes">
+					<property name="EntityDamage" value="25,30" />
+					<property name="BlockDamage" value="10,15" />
+					<property name="DegradationMax" value="5000,8000" />
+				</property>
+				<property name="EconomicValue" value="750" />
+			</item>
+			<item id="" name="gunM4A1Schematic">
+				<property name="Extends" value="schematicMaster" />
+				<property name="EconomicValue" value="500" />
+				<property class="Action1">
+					<property name="Recipes_to_learn" value="gunM4A1,556mmBullet" />
+				</property>
+			</item>
+			<item id="" name="gunMP40Schematic">
+				<property name="Extends" value="schematicMaster" />
+				<property name="EconomicValue" value="500" />
+				<property class="Action1">
+					<property name="Recipes_to_learn" value="gunMP40,40SWBullet" />
+				</property>
+			</item>
+		</append>
+	</config>
+	<config name="recipes">
+		<append xpath="/recipes">
+			<recipe name="gunM4A1" count="1" craft_area="assembly">
+				<ingredient name="flashlight02" count="0" />
+				<ingredient name="partsM4A1_stock" count="1" />
+				<ingredient name="partsM4A1_receiver" count="1" />
+				<ingredient name="partsM4A1_parts" count="1" />
+				<ingredient name="partsM4A1_barrel" count="1" />
+			</recipe>
+			<recipe name="gunMP40" count="1" craft_area="assembly">
+				<ingredient name="flashlight02" count="0" />
+				<ingredient name="partsMP40_grip" count="1" />
+				<ingredient name="partsMP40_receiver" count="1" />
+				<ingredient name="partsMP40_parts" count="1" />
+				<ingredient name="partsMP40_barrel" count="1" />
+			</recipe>
+			<recipe name="556mmBullet" count="1" craft_area="workbench">
+				<ingredient name="bulletTip" count="1" />
+				<ingredient name="gunPowder" count="3" />
+				<ingredient name="bulletCasing" count="1" />
+			</recipe>
+			<recipe name="40SWBullet" count="1" craft_area="workbench">
+				<ingredient name="bulletTip" count="1" />
+				<ingredient name="gunPowder" count="2" />
+				<ingredient name="bulletCasing" count="1" />
+			</recipe>
+		</append>
+	</config>
+	<config name="loot">
+		<append xpath="/lootcontainers/lootgroup[@name='ammo']">
+				<item name="40SWBullet" count="1,20" />
+				<item name="556mmBullet" count="1,20" />
+		</append>
+		<insertAfter xpath="/lootcontainers/lootgroup[@name='weaponsPistol+ammo']">
+			<lootgroup name="weaponsMP40+ammo" count="all">
+				<item name="40SWBullet" count="1,10" />
+				<item name="gunMP40" />
+			</lootgroup>
+		</insertAfter>
+		<append xpath="/lootcontainers/lootgroup[@name='toiletLoot']">
+				<item group="weaponsMP40+ammo" count="1" prob="0.02" />
+		</append>
+		<insertAfter xpath="/lootcontainers/lootgroup[@name='weaponsAK47+ammo']">
+			<lootgroup name="weaponsM4A1+ammo" count="all">
+				<item name="556mmBullet" count="1,20" />
+				<item name="gunM4A1" />
+			</lootgroup>
+		</insertAfter>
+		<append xpath="/lootcontainers/lootgroup[@name='weaponsMilitaryParts']">
+				<item name="partsM4A1_stock"/>
+				<item name="partsM4A1_receiver"/>
+				<item name="partsM4A1_parts"/>
+				<item name="partsM4A1_barrel"/>
+				<item name="partsMP40_grip"/>
+				<item name="partsMP40_receiver"/>
+				<item name="partsMP40_parts"/>
+				<item name="partsMP40_barrel"/>
+		</append>
+		<append xpath="/lootcontainers/lootgroup[@name='rareBooks']">
+				<item name="gunM4A1Schematic" />
+				<item name="gunMP40Schematic" />
+		</append>
+		<append xpath="/lootcontainers/lootgroup[@name='weaponsMilitaryGuns+ammo']">
+				<item group="weaponsM4A1+ammo" prob="0.07" />
+				<item group="weaponsMP40+ammo" prob="0.07" />
+		</append>
+		<append xpath="/lootcontainers/lootgroup[@name='militaryAmmo']">
+				<item name="40SWBullet" count="5,15" />
+				<item name="556mmBullet" count="5,30" />
+		</append>
+		<append xpath="/lootcontainers/lootgroup[@name='treasureAmmo']">
+				<item name="40SWBullet" count="50,140" />
+				<item name="556mmBullet" count="50,140" />
+		</append>
+		<!-- zombie cop-->
+		<append xpath="/lootcontainers/lootcontainer[@id='17']">
+				<item group="weaponsMP40+ammo" prob="0.7" />
+		</append>
+	</config>
+</configs>

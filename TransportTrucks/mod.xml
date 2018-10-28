@@ -1,0 +1,13 @@
+<mod>
+	<info>
+		<author>stedman420</author>
+		<name>TransportTrucks</name>
+		<description>Two transport trucks with 3 stages of damage each</description>
+		<mod_version>1.0</mod_version>
+		<game_version>16.4</game_version>
+		<launcher_version>0.7.1</launcher_version>
+	</info>
+	<config_mods>
+		<import file="Config\TransportTrucks.xml" />
+    </config_mods>
+</mod>

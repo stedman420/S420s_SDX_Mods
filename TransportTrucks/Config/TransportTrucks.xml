@@ -1,0 +1,64 @@
+<configs>
+	<config name="blocks">
+		<append xpath="/blocks">
+			<block id="" name="transporter01D0">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage0" />
+				<property name="CustomIcon" value="cntCar03SedanDamage0" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#transportTrucks?transporter01D0" />
+				<property name="DowngradeBlock" value="transporter01D1" />
+				<property name="MultiBlockDim" value="3,3,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="transporter01D1">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#transportTrucks?transporter01D1" />
+				<property name="DowngradeBlock" value="transporter01D2" />
+				<property name="MultiBlockDim" value="3,3,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="transporter01D2">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage2" />
+				<property name="CustomIcon" value="cntCar03SedanDamage2" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#transportTrucks?transporter01D2" />
+				<property name="MultiBlockDim" value="3,3,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="transporter02D0">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage0" />
+				<property name="CustomIcon" value="cntCar03SedanDamage0" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#transportTrucks?transporter02D0" />
+				<property name="DowngradeBlock" value="transporter02D1" />
+				<property name="MultiBlockDim" value="3,3,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="transporter02D1">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#transportTrucks?transporter02D1" />
+				<property name="DowngradeBlock" value="transporter02D2" />
+				<property name="MultiBlockDim" value="3,3,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="transporter02D2">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage2" />
+				<property name="CustomIcon" value="cntCar03SedanDamage2" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#transportTrucks?transporter02D2" />
+				<property name="MultiBlockDim" value="3,3,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+		</append>
+	</config>
+</configs>

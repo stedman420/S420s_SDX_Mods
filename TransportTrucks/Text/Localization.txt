@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish
+transporter01D0,"","","","Old Truck","","","",""
+transporter01D1,"","","","Damaged Old Truck","","","",""
+transporter01D2,"","","","Wrecked Old Truck","","","",""
+transporter02D0,"","","","Old Tanker Truck","","","",""
+transporter02D1,"","","","Damaged Old Tanker Truck","","","",""
+transporter02D2,"","","","Wrecked Old Tanker Truck","","","",""

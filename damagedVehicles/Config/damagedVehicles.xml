@@ -1,0 +1,64 @@
+<configs>
+	<config name="blocks">
+		<append xpath="/blocks">
+			<block id="" name="damagedCarD0">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage0" />
+				<property name="CustomIcon" value="cntCar03SedanDamage0" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#damagedVehicles?damagedCarD0" />
+				<property name="DowngradeBlock" value="damagedCarD1" />
+				<property name="MultiBlockDim" value="3,2,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="damagedCarD1">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#damagedVehicles?damagedCarD1" />
+				<property name="DowngradeBlock" value="damagedCarD2" />
+				<property name="MultiBlockDim" value="3,2,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="damagedCarD2">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage2" />
+				<property name="CustomIcon" value="cntCar03SedanDamage2" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#damagedVehicles?damagedCarD2" />
+				<property name="MultiBlockDim" value="3,2,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="damagedVanD0">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage0" />
+				<property name="CustomIcon" value="cntCar03SedanDamage0" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#damagedVehicles?damagedVanD0" />
+				<property name="DowngradeBlock" value="damagedVanD1" />
+				<property name="MultiBlockDim" value="3,2,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="damagedVanD1">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#damagedVehicles?damagedVanD1" />
+				<property name="DowngradeBlock" value="damagedVanD2" />
+				<property name="MultiBlockDim" value="3,2,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="damagedVanD2">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage2" />
+				<property name="CustomIcon" value="cntCar03SedanDamage2" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#damagedVehicles?damagedVanD2" />
+				<property name="MultiBlockDim" value="3,2,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+		</append>
+	</config>
+</configs>

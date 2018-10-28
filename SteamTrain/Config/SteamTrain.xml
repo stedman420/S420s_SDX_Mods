@@ -1,0 +1,15 @@
+<configs>
+	<config name="blocks">
+		<append xpath="/blocks">
+			<block id="" name="SteamTrain">
+				<!--Free Unity store asset by Bretwalda Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#SteamTrain?SteamTrainPrefab" />
+				<property name="MultiBlockDim" value="3,5,16" />
+				<property name="BigDecorationRadius" value="16" />
+			</block>
+		</append>
+	</config>
+</configs>

@@ -1,0 +1,10 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish
+SemiTruck01,"","","","Blue Semi-Truck","","","",""
+SemiTruck01r,"","","","Red Semi-Truck","","","",""
+SemiTruck01w,"","","","White Semi-Truck","","","",""
+SemiTruck02,"","","","Blue Semi-Truck","","","",""
+SemiTruck02r,"","","","Red Semi-Truck","","","",""
+SemiTruck02w,"","","","White Semi-Truck","","","",""
+SemiTruck03,"","","","Blue Semi-Truck","","","",""
+SemiTruck03r,"","","","Red Semi-Truck","","","",""
+SemiTruck03w,"","","","White Semi-Truck","","","",""

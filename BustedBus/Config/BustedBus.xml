@@ -1,0 +1,14 @@
+<configs>
+	<config name="blocks">
+		<append xpath="/blocks">
+			<block id="" name="BustedBus">
+				<!--Busted Bus(https://sketchfab.com/models/4360e82cb3a542619b62ed74762f852b) by Renafox is licensed under CC Attribution-NonCommercial(http://creativecommons.org/licenses/by-nc/4.0/)-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Model" value="#BustedBus?BustedBusPrefab" />
+				<property name="MultiBlockDim" value="3,3,9" />
+				<property name="BigDecorationRadius" value="9" />
+			</block>
+		</append>
+	</config>
+</configs>

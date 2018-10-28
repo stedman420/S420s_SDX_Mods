@@ -1,0 +1,14 @@
+<configs>
+	<config name="blocks">
+		<append xpath="/blocks">
+			<block id="" name="FireTruck">
+				<!--Fire Truck(https://sketchfab.com/models/e0fadd42bd3b448eaa0eb660764c170a) by codexito is licensed under CC Attribution(http://creativecommons.org/licenses/by/4.0/)-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#FireTruck?FireTruckPrefab" />
+				<property name="MultiBlockDim" value="3,3,9" />
+				<property name="BigDecorationRadius" value="9" />
+			</block>
+		</append>
+	</config>
+</configs>

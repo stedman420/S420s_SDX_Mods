@@ -1,0 +1,76 @@
+<configs>
+	<config name="blocks">
+		<remove xpath="/blocks/block[@id='885']" />
+		<insertAfter xpath="/blocks/block[@id='884']">
+			<block id="885" name="pottedPlantsHelper">
+				<property name="Extends" value="lootWastelandHelper"/>
+				<property name="CreativeMode" value="Dev"/>
+			</block>
+		</insertAfter>
+		<append xpath="/blocks">
+			<block id="" name="treePlant02"> <!-- stock potted plant -->
+				<property name="DescriptionKey" value="furnitureGroupDesc"/>
+				<property name="Material" value="wood_regular"/>
+				<property name="StabilitySupport" value="false"/>
+				<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
+				<property name="Mesh" value="models"/>
+				<property name="Model" value="Plants/plant02" param1="main_mesh"/>
+				<property name="CanPickup" value="true"/>
+				<drop event="Destroy" name="dirtFragment" count="3"/>
+				<drop event="Fall" name="dirtFragment" count="3" prob="1.0" stick_chance="0"/>
+				<property name="EconomicValue" value="6"/>
+				<property name="EconomicBundleSize" value="20"/>
+			</block>
+			<block id="" name="pottedPlant1">
+				<property name="Extends" value="treePlant02"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="#pottedPlant1?pottedPlant1Prefab"/>
+				<property name="CustomIcon" value="pottedPlant1"/>
+			</block>
+			<block id="" name="pottedPlant2">
+				<property name="Extends" value="treePlant02"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="#pottedPlant2?pottedPlant2Prefab"/>
+				<property name="CustomIcon" value="pottedPlant2"/>
+			</block>
+			<block id="" name="pottedPlant3">
+				<property name="Extends" value="treePlant02"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="#pottedPlant3?pottedPlant3Prefab"/>
+				<property name="CustomIcon" value="pottedPlant3"/>
+				<property name="MultiBlockDim" value="1,2,1"/>
+			</block>
+			<block id="" name="pottedPlant4">
+				<property name="Extends" value="treePlant02"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="#pottedPlant4?pottedPlant4Prefab"/>
+				<property name="CustomIcon" value="pottedPlant4"/>
+			</block>
+			<block id="" name="pottedPlant5">
+				<property name="Extends" value="treePlant02"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="#pottedPlant5?pottedPlant5Prefab"/>
+				<property name="CustomIcon" value="pottedPlant5"/>
+			</block>
+			<block id="" name="pottedPlant6">
+				<property name="Extends" value="treePlant02"/>
+				<property name="Shape" value="ModelEntity"/>
+				<property name="Model" value="#pottedPlant6?pottedPlant6Prefab"/>
+				<property name="CustomIcon" value="pottedPlant6"/>
+			</block>
+		</append>
+	</config>
+	<config name="loot">
+		<insertAfter xpath="/lootcontainers/lootplaceholders/placeholder[@name='lootConstructionSuppliesHelper']">
+			<placeholder name="pottedPlantsHelper">
+				<block name="treePlant02"/>
+				<block name="pottedPlant1"/>
+				<block name="pottedPlant2"/>
+				<block name="pottedPlant3"/>
+				<block name="pottedPlant4"/>
+				<block name="pottedPlant5"/>
+				<block name="pottedPlant6"/>
+			</placeholder>
+		</insertAfter>
+	</config>
+</configs>

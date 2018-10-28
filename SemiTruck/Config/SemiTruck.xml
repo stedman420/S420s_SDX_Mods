@@ -1,0 +1,87 @@
+<configs>
+	<config name="blocks">
+		<append xpath="/blocks">
+			<block id="" name="SemiTruck01">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#SemiTruck?SemiTruck01" />
+				<property name="MultiBlockDim" value="3,3,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="SemiTruck01r">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#SemiTruck?SemiTruck01r" />
+				<property name="MultiBlockDim" value="3,3,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="SemiTruck01w">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#SemiTruck?SemiTruck01w" />
+				<property name="MultiBlockDim" value="3,3,6" />
+				<property name="BigDecorationRadius" value="6" />
+			</block>
+			<block id="" name="SemiTruck02">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#SemiTruck?SemiTruck02" />
+				<property name="MultiBlockDim" value="3,4,14" />
+				<property name="BigDecorationRadius" value="14" />
+			</block>
+			<block id="" name="SemiTruck02r">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#SemiTruck?SemiTruck02r" />
+				<property name="MultiBlockDim" value="3,4,14" />
+				<property name="BigDecorationRadius" value="14" />
+			</block>
+			<block id="" name="SemiTruck02w">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#SemiTruck?SemiTruck02w" />
+				<property name="MultiBlockDim" value="3,4,14" />
+				<property name="BigDecorationRadius" value="14" />
+			</block>
+			<block id="" name="SemiTruck03">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#SemiTruck?SemiTruck03" />
+				<property name="MultiBlockDim" value="6,4,13" />
+				<property name="BigDecorationRadius" value="14" />
+			</block>
+			<block id="" name="SemiTruck03r">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#SemiTruck?SemiTruck03r" />
+				<property name="MultiBlockDim" value="6,4,13" />
+				<property name="BigDecorationRadius" value="14" />
+			</block>
+			<block id="" name="SemiTruck03w">
+				<!--Free Unity store asset by VIS Games-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#SemiTruck?SemiTruck03w" />
+				<property name="MultiBlockDim" value="6,4,13" />
+				<property name="BigDecorationRadius" value="14" />
+			</block>
+		</append>
+	</config>
+</configs>

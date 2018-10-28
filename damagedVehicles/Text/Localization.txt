@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish
+damagedCarD0,"","","","Old Car","","","",""
+damagedCarD1,"","","","Damaged Old Car","","","",""
+damagedCarD2,"","","","Wrecked Old Car","","","",""
+damagedVanD0,"","","","Old Van","","","",""
+damagedVanD1,"","","","Damaged Old Van","","","",""
+damagedVanD2,"","","","Wrecked Old Van","","","",""

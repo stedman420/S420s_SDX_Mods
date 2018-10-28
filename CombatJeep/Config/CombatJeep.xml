@@ -1,0 +1,50 @@
+<configs>
+	<config name="blocks">
+		<append xpath="/blocks">
+			<block id="" name="CombatJeep01">
+				<!--Free Unity store asset by Yoon's 3D GameART-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#CombatJeep?CombatJeep01" />
+				<property name="MultiBlockDim" value="3,3,7" />
+				<property name="BigDecorationRadius" value="7" />
+			</block>
+			<block id="" name="CombatJeep02">
+				<!--Free Unity store asset by Yoon's 3D GameART-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="CombatJeep01" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#CombatJeep?CombatJeep02" />
+				<property name="MultiBlockDim" value="3,3,7" />
+				<property name="BigDecorationRadius" value="7" />
+			</block>
+			<block id="" name="CombatJeep03">
+				<!--Free Unity store asset by Yoon's 3D GameART-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="CombatJeep01" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#CombatJeep?CombatJeep03" />
+				<property name="MultiBlockDim" value="3,3,7" />
+				<property name="BigDecorationRadius" value="7" />
+			</block>
+			<block id="" name="CombatJeep04">
+				<!--Free Unity store asset by Yoon's 3D GameART-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="CombatJeep01" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#CombatJeep?CombatJeep04" />
+				<property name="MultiBlockDim" value="3,3,7" />
+				<property name="BigDecorationRadius" value="7" />
+			</block>
+			<block id="" name="CombatJeep05">
+				<!--Free Unity store asset by Yoon's 3D GameART-->
+				<property name="Extends" value="cntCar03SedanDamage1" />
+				<property name="CustomIcon" value="CombatJeep01" />
+				<property name="Shape" value="ModelEntity" />
+				<property name="Model" value="#CombatJeep?CombatJeep05" />
+				<property name="MultiBlockDim" value="3,3,7" />
+				<property name="BigDecorationRadius" value="7" />
+			</block>
+		</append>
+	</config>
+</configs>

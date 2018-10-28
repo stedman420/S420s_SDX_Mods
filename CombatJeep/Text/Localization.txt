@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish
+CombatJeep01,"","","","Combat Jeep 01","","","",""
+CombatJeep02,"","","","Combat Jeep 02","","","",""
+CombatJeep03,"","","","Combat Jeep 03","","","",""
+CombatJeep04,"","","","Combat Jeep 04","","","",""
+CombatJeep05,"","","","Combat Jeep 05","","","",""
