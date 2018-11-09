@@ -1,0 +1,19 @@
+<mod>
+	<info>
+		<author>stedman420</author>
+		<name>S420Zombies</name>
+		<description>Adds a few new zombies</description>
+		<mod_version>1.0</mod_version>
+		<game_version>16.4</game_version>
+		<launcher_version>0.7.2</launcher_version>
+	</info>
+	
+	
+	<config_mods>
+		<import file="Configs\S420Zombies.xml" />
+	</config_mods>
+	
+	<dependencies>
+		<dependency>AnimationSDX</dependency>
+	</dependencies>
+</mod>

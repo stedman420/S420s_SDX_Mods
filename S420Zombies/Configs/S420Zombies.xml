@@ -1,0 +1,117 @@
+<configs>
+	<config name="entityclasses">
+		<append xpath="/entity_classes">
+			<entity_class name="zombieGirl01" extends="SDXTemplate">
+				<property name="Mesh" value="#S420Zombies?zombieGirl01"/>
+				<property name="AnimationIdle" value="Zombie Idle"/>
+				<property name="AnimationSecondIdle" value="Zombie Idle"/>
+				<property name="AnimationMainAttack" value="Zombie Attack"/>
+				<property name="AnimationSecondAttack" value="Zombie Attack"/>
+				<property name="AnimationSpecialAttack" value="Zombie Neck Bite"/>
+				<property name="AnimationWalk" value="Walking"/>
+				<property name="AnimationPain" value="Zombie Reaction Hit"/>
+				<property name="AnimationJump" value="Jumping"/>
+				<property name="AnimationDeath" value="Zombie Death"/>
+				<property name="AnimationRun" value="Zombie Run"/>
+				<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam" />
+				<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert" />
+				<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack" />
+				<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain" />
+				<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath" />
+				<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense" />
+				<property name="WanderSpeed" value="0.5"/>
+				<property name="ApproachSpeed" value="0.6"/>
+				<property name="NightWanderSpeed" value="0.5"/>
+				<property name="NightApproachSpeed" value="0.6"/>
+				<property name="PanicSpeed" value="0.6"/>
+				<property name="AttackTimeoutDay" value="2.0" />
+				<property name="AttackTimeoutNight" value="2.0" />
+				<property name="MaxHealth" value="300" />
+				<property name="ExperienceGain" value="1039" />
+				<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0" />
+			</entity_class>
+			<entity_class name="zombieGirl02" extends="zombieGirl01">
+				<property name="Mesh" value="#S420Zombies?zombieGirl02"/>
+				<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0" />
+			</entity_class>
+			<entity_class name="zombieGirl03" extends="zombieGirl01">
+				<property name="Mesh" value="#S420Zombies?zombieGirl03"/>
+				<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0" />
+			</entity_class>
+			<entity_class name="zombieFemaleCop01" extends="zombieGirl01">
+				<property name="Mesh" value="#S420Zombies?zombieFemaleCop01"/>
+				<property name="HandItem" value="handZombieStrong" />
+				<property name="MaxHealth" value="500" />
+				<property name="ExperienceGain" value="1556" />
+				<property name="LootListOnDeath" value="17" />
+				<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0" />
+			</entity_class>
+			<entity_class name="zombieFemaleSoldier01" extends="zombieFemaleCop01">
+				<property name="Mesh" value="#S420Zombies?zombieFemaleSoldier01"/>
+				<property name="LootListOnDeath" value="73" />
+				<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0" />
+			</entity_class>
+			<entity_class name="zombieMaleDoctor01" extends="SDXTemplate">
+				<property name="Mesh" value="#S420Zombies?zombieMaleDoctor01"/>
+				<property name="AnimationIdle" value="Zombie Idle"/>
+				<property name="AnimationSecondIdle" value="Zombie Idle"/>
+				<property name="AnimationMainAttack" value="Zombie Attack"/>
+				<property name="AnimationSecondAttack" value="Zombie Attack"/>
+				<property name="AnimationSpecialAttack" value="Zombie Neck Bite"/>
+				<property name="AnimationWalk" value="Walking"/>
+				<property name="AnimationPain" value="Zombie Reaction Hit"/>
+				<property name="AnimationJump" value="Jumping"/>
+				<property name="AnimationDeath" value="Zombie Death"/>
+				<property name="AnimationRun" value="Zombie Run"/>
+				<property name="WanderSpeed" value="0.5"/>
+				<property name="ApproachSpeed" value="0.6"/>
+				<property name="NightWanderSpeed" value="0.5"/>
+				<property name="NightApproachSpeed" value="0.6"/>
+				<property name="PanicSpeed" value="0.6"/>
+				<property name="AttackTimeoutDay" value="2.0" />
+				<property name="AttackTimeoutNight" value="2.0" />
+				<property name="MaxHealth" value="300" />
+				<property name="ExperienceGain" value="1039" />
+				<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0" />
+			</entity_class>
+			<entity_class name="zombieMaleFireman01" extends="zombieMaleDoctor01">
+				<property name="Mesh" value="#S420Zombies?zombieMaleFireman01"/>
+				<property name="SoundRandom" value="Enemies/Snow_Zombie_Male/zombiemalesnowroam" />
+				<property name="SoundAlert" value="Enemies/Snow_Zombie_Male/zombiemalesnowalert" />
+				<property name="SoundAttack" value="Enemies/Snow_Zombie_Male/zombiemalesnowattack" />
+				<property name="SoundHurt" value="Enemies/Snow_Zombie_Male/zombiemalesnowpain" />
+				<property name="SoundDeath" value="Enemies/Snow_Zombie_Male/zombiemalesnowdeath" />
+				<property name="SoundSense" value="Enemies/Snow_Zombie_Male/zombiemalesnowsense" />
+				<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep" />
+				<property name="HandItem" value="handZombieStrong" />
+				<property name="MaxHealth" value="450" />
+				<property name="ExperienceGain" value="1556" />
+				<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0" />
+			</entity_class>
+			<entity_class name="zombieMonster01" extends="zombieMaleDoctor01">
+				<property name="Mesh" value="#S420Zombies?zombieMonster01"/>
+				<property name="SoundRandom" value="Enemies/Feral_Zombie/zombieferalroam" />
+				<property name="SoundAlert" value="Enemies/Feral_Zombie/zombieferalalert" />
+				<property name="SoundAttack" value="Enemies/Feral_Zombie/zombieferalattack" />
+				<property name="SoundHurt" value="Enemies/Feral_Zombie/zombieferalpain" />
+				<property name="SoundDeath" value="Enemies/Feral_Zombie/zombieferaldeath" />
+				<property name="SoundSense" value="Enemies/Feral_Zombie/zombieferalsense" />
+				<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep" />
+				<property name="WanderSpeed" value="0.6"/>
+				<property name="ApproachSpeed" value="0.8"/>
+				<property name="NightWanderSpeed" value="0.6"/>
+				<property name="NightApproachSpeed" value="0.8"/>
+				<property name="PanicSpeed" value="0.8"/>
+				<property name="HandItem" value="handZombieCop" />
+				<property name="MaxHealth" value="750" />
+				<property name="ExperienceGain" value="3429" />
+				<property name="LootListOnDeath" value="61" />
+				<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0" />
+			</entity_class>
+			<entity_class name="zombieMonster02" extends="zombieMonster01">
+				<property name="Mesh" value="#S420Zombies?zombieMonster02"/>
+				<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0" />
+			</entity_class>
+		</append>
+	</config>
+</configs>
