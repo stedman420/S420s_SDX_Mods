@@ -1,4 +1,11 @@
 Key,Source,Context,Changes,English,French,German,Klingon,Spanish
+gunDoubleBarrel,items,Gun,New,"Double Barrel",,,,
+gunDoubleBarrelDesc,items,Gun,New,"A double barrel shotgun uses shells or slugs for ammo. Can be re-assembled and repaired if you read the Shotgun Schematic.",,,,
+partsDoubleBarrelGroupDesc,items,Part,New,"A part of the double barrel shotgun. Assemble with other parts to create a complete shotgun once you've read the shotgun schematic.",,,,
+partsDoubleBarrel_stock,items,Part,New,"Double Barrel Stock",,,,
+partsDoubleBarrel_receiver,items,Part,New,"Double Barrel Receiver",,,,
+partsDoubleBarrel_parts,items,Part,New,"Double Barrel Parts",,,,
+partsDoubleBarrel_barrel,items,Part,New,"Double Barrel Barrel",,,,
 gunM4A1,items,Gun,New,"M4A1",,,,
 gunM4A1Desc,items,Gun,New,"An M4A1 uses 5.56mm rounds for ammo. Can be re-assembled and repaired if you read the M4A1 Schematic.",,,,
 partsM4A1GroupDesc,items,Part,New,"A part of the M4A1. Assemble with other parts to create a complete rifle once you've read the M4A1 schematic.",,,,
